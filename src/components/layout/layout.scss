@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper {
+  background-color: #273051;
+  padding: 1.2rem 1.2rem;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      align-items: center;
+
+      .nav-social {
+        display: flex;
+        gap: 1rem;
+
+        img {
+          height: 2.1rem;
+          width: 2.1rem;
+        }
+      }
+      .nav-buttons {
+        display: flex;
+        gap: 1rem;
+
+        button {
+          padding: 0.8rem 2rem;
+          border-radius: 10px;
+          font-weight: 600;
+          cursor: pointer;
+          align-items: center;
+        }
+        .contact-btn {
+          background-color: #b6d339;
+          color: white;
+        }
+        .enroll-btn {
+          background-color: #ffc001;
+        }
+      }
+    }
+  }
+}
+.nav-container {
+  background-color: white;
+  padding: 1.8rem;
+  // margin: 1rem;
+
+  .main {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: black;
+  }
+}
+.pictures {
+  background-color: #ffc001;
+}
